@@ -1,0 +1,4 @@
+double degreesInCelsius = double.Parse(Console.ReadLine()); 
+double degreesInFahreheit = degreesInCelsius * 1.8 + 32;
+
+Console.WriteLine($"{degreesInFahreheit:F2}");
